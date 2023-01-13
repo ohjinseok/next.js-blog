@@ -4,6 +4,8 @@ import { createPost } from '../../../lib/posts'
 export default async function handler(req, res) {
   const { id, title, content } = req.body
 
+  console.log(id, title, content)
+
   try {
     await createPost({
       id,

@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://verel-blog-jnuso49hg-ohjinseok.vercel.app/
+
+# Sitemaps
+Sitemap: https://verel-blog-jnuso49hg-ohjinseok.vercel.app/sitemap.xml
