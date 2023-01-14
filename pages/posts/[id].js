@@ -54,14 +54,6 @@ export default function Post({ postData }) {
           <MDXRemote {...postData.mdxSource} components={components} />
         )}
       </article>
-      <script
-        src="https://utteranc.es/client.js"
-        repo="ohjinseok / next.js-blog"
-        issue-term="pathname"
-        theme="gruvbox-dark"
-        crossorigin="anonymous"
-        async
-      ></script>
     </Layout>
   )
 }
